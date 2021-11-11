@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="/user/login" method="post">
+    name:<input th:type="text" th:name="username">
+    <br>
+    password:<input th:type="text" th:name="password">
+    <br>
+<!--    这里的复选框选项是指选中自动登录这个功能，且该标签的name属性的值必须为remeber-me-->
+    <input th:type="checkbox" th:name="remember-me" />自动登陆
+    <br>
+    <input th:type="submit" th:value="提交">
+</form>
+</body>
+</html>
