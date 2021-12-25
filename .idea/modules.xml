@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/SpringSecurity.iml" filepath="$PROJECT_DIR$/.idea/SpringSecurity.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringSecurity/demo.iml" filepath="$PROJECT_DIR$/SpringSecurity/demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jwt/jwt.iml" filepath="$PROJECT_DIR$/jwt/jwt.iml" />
     </modules>
   </component>
 </project>

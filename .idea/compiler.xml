@@ -8,10 +8,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="demo" />
+        <module name="jwt" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="demo" target="1.8" />
+      <module name="jwt" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
