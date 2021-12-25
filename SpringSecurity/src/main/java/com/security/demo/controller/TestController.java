@@ -34,6 +34,10 @@ public class TestController {
         return "nopermission";
     }
 
+    @RequestMapping("error")
+    public String error(){
+        return "error";
+    }
 
     @RequestMapping("/message")
     public String message(){

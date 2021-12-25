@@ -83,7 +83,8 @@ public class SecurityConfigTest extends WebSecurityConfigurerAdapter {
                 //登陆成功之后跳转的页面
                 .defaultSuccessUrl("/index").permitAll()
 //                配置信息输入有误时跳转的页面
-                .failureUrl("/userLogin?error")
+//                .failureUrl("/userLogin?error")
+                .failureUrl("/error")
                 //设置提交表单中用户名的name属性值,默认为username
                 .usernameParameter("username")
                 //设置提交表单中密码的name属性值,默认为password

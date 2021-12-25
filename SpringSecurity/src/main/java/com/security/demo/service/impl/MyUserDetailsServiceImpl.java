@@ -38,6 +38,7 @@ public class MyUserDetailsServiceImpl implements UserDetailsService {
     public UserDetails loadUserByUsername(String s) throws UsernameNotFoundException {
 
 
+        System.out.println("用户名"+s);
          com.security.demo.pojo.User user = userMapper.selectByUsername(s);
         List<GrantedAuthority> auths= null;
         List<GrantedAuthority> auths1= AuthorityUtils.
